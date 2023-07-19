@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class RadioAdapter {
     public static void main(String[] args) {
         AmericanSocket americanSocket = new SimpleAmericanSocket();
@@ -12,10 +14,10 @@ public class RadioAdapter {
 
 // 220 вольт
 interface EuroSocket {
-   void getPower();
+    void getPower();
 }
 
-class SocketAdapter implements EuroSocket{
+class SocketAdapter implements EuroSocket {
 
     AmericanSocket americanSocket;
 
