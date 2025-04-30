@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class WavPlayer {
-    String audioFile = "C:\\Users\\Oleg\\IdeaProjects\\RadioAdapter\\src\\main\\resources\\LookHereIsRadio.wav";
+    String audioFile = "C:\\Users\\tschu\\IdeaProjects\\demo\\RadioAdapter\\src\\main\\resources\\LookHereIsRadio.wav";
 
     AudioInputStream audioInputStream;
 
