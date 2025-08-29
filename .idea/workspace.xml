@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e41d005-5974-4817-adf3-742f6a229f19" name="Changes" comment="CRUD code" />
+    <list default="true" id="9e41d005-5974-4817-adf3-742f6a229f19" name="Changes" comment="Code refactored">
+      <change afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/AmericanSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/EuroSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/ListenRadio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/SimpleAmericanSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/SocketAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/exceptions/AudioPlaybackException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RadioAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SampleAnimals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WavPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/radio/adapter/org/WavPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "OlegChumin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OlegChumin/RadioAdapter.git",
+    "accountId": "a1b1bfef-0159-4f80-a675-6c9c9e0cbca6"
+  }
+}]]></component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -32,11 +60,11 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2Sn3KzVeHqwhIM4llgItD3h0bzN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -45,12 +73,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ListenRadio.executor": "Run",
+    "Application.RadioAdapter.executor": "Run",
+    "Maven.RadioAdapter [clean,package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
@@ -60,7 +92,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,8 +104,24 @@
       <recent name="C:\Users\Oleg\IdeaProjects\RadioAdapter\src\main\java" />
       <recent name="C:\Users\Oleg\IdeaProjects\RadioAdapter\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tschu\IdeaProjects\Learning\RadioAdapter\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.RadioAdapter">
+  <component name="RunManager" selected="Application.ListenRadio">
+    <configuration name="ListenRadio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="radio.adapter.org.ListenRadio" />
+      <module name="RadioAdapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="radio.adapter.org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="RadioAdapter" />
@@ -85,7 +136,7 @@
       </method>
     </configuration>
     <configuration name="RadioAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RadioAdapter" />
+      <option name="MAIN_CLASS_NAME" value="radio.adapter.org.RadioAdapter" />
       <module name="RadioAdapter" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,7 +150,7 @@
       </method>
     </configuration>
     <configuration name="WavPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WavPlayer" />
+      <option name="MAIN_CLASS_NAME" value="radio.adapter.org.WavPlayer" />
       <module name="RadioAdapter" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +158,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListenRadio" />
         <item itemvalue="Application.RadioAdapter" />
         <item itemvalue="Application.WavPlayer" />
         <item itemvalue="Application.SampleAnimals" />
@@ -183,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689847988745</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add gitignore">
+      <option name="closed" value="true" />
+      <created>1756207020331</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756207020331</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +252,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CRUDE code" />
     <MESSAGE value="CRUD code" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD code" />
+    <MESSAGE value="Add gitignore" />
+    <MESSAGE value="Code refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactored" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
